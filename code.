@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Using a descriptive title for the website -->
+    <title>Chevera Company Limited - Home</title>
+    
+    <!-- Link to Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+    
+    <!-- Link to custom stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    
+    
+    <!-- Inline styles -->
+    <style>
+               /* Make the navbar fixed at the top */
+        
+
+        /* Add the arrow at the left corner */
+        .arrow-circle {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: orange;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+
+        
+        .About-us {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        
+        body {
+            background-color: #eee;
+        }
+
+        /* Grid container */
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 10px;
+        }
+
+        /* Grid items */
+        .grid-item {
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .grid-item-1 {
+            background-image: url("background1.jpg");
+        }
+
+        .grid-item-2 {
+            background-image: url("background2.jpg");
+        }
+
+        .grid-item-3 {
+            background-image: url("background3.jpg");
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 30px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 50px;
+        }
+
+        /* Footer items */
+        .footer-item {
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .footer-item-1 {
+            background-image: url("footer-bg1.jpg");
+        }
+
+        .footer-item-2 {
+            background-image: url("footer-bg2.jpg");
+        }
+
+        .footer-item-3 {
+            background-image: url("footer-bg3.jpg");
+        }
+
+        /* Contact info */
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .contact-info h4 {
+            margin-bottom: 10px;
+        }
+
+        .contact-info p {
+            margin-bottom: 10px;
+        }
+
+        .contact-info a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* Container */
+        .container {
+            max-width: 2000px;
+            margin: auto;
+        }
+
+        /* Grid */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-gap: 20px;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .navbar-nav {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            
+        }
+
+        .nav-item {
+            margin-left: 20px;
+        }
+
+        /* Service cards */
+        .service-card {
+            background-color: #eeee;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .service-card img {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <!-- Header -->
+    <header class="container-fluid bg-warning py-4">
+        <div class="container">
+            
+            <div class="row">
+                <div class="col-6">
+                    <!-- Use a display-4 class to make the heading larger -->
+                    <h1 class="display-4 text-black">Chevera Company Limited</h1>
+                </div>
+                <div class="col-6">
+                    <!-- Use an image tag to add your company logo here -->
+                    <img src="Chevera Logo/logo.png" alt="HTML5 Logo" class="img-fluid float-right">
+                </div>
+            </div>
+        </div>
+    </header>
+ 
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+  
+            <a href="#" class="navbar-brand">Chevera</a>
+         
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="#About-us" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#Services" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="#updates" class="nav-link">Updates</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- About Us section -->
+        <section id="About-us" class="my-5">
+            <h4>Discover Chevera Company Limited</h4>
+            <h2>About Us</h2>
+            <img src="Chevera Logo/chika.jpg" alt="About-us"   class="d-block w-50">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="grid-container">
+                        <div class="grid-item grid-item-1"></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3>Chevera Company Limited has been planning unforgettable experiences since 2017. 
+                        Our qualified and knowledgeable agents travel the world often, so they can advise, 
+                        recommend, and create the perfect trip according to your request. 
+                        Chevera Company Limited also provides other services that you can check out in the services section.</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services section -->
+        <section id="Services" class="my-5">
+            <h2>Services</h2>
+            <div class="grid">
+                <div class="service-card">
+                    <img src="Chevera Logo/chika.jpg" alt="Service 1">
+                    <h3>ARCHITECTURE</h3>
+                    <p>Build contractor</p>
+                    <p>Build Design</p>
+                    <p>Build Planning</p>
+                </div>
+                <div class="service-card">
+                    <img src="Chevera Logo/logo.png" alt="Service 2">
+                    <h3>TRAVEL AND TOUR</h3>
+                    <p>American Visa Application</p>
+                    <p>American Lottery Application</p>
+                    <p>Passport Application and Renewal</p>
+                    <p>Birth Certificate Application</p>
+                </div>
+                <div class="service-card">
+                    <img src="Chevera Logo/logo.png" alt="Service 3">
+                    <h3>PRINTING SERVICES</h3>
+                    <p>Typing and Printing of all Formats</p>
+                    <p>3D Designing</p>
+                    <p>Passport picture</p>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Media section -->
+        <section id="social-media" class="my-5">
+            <h2>Social Media</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="list-group social-media-handles">
+                        <li class="list-group-item grid-item grid-item-1"><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                        <li class="list-group-item grid-item grid-item-2"><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i> Twitter</a></li>
+                        <li class="list-group-item grid-item grid-item-3"><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram-square"></i> Instagram</a></li>
+                        <li class="list-group-item"><a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h3>Connect with us on social media to get the latest updates, tips, and insights from our team. You can also share your feedback, questions, and ideas with us and our community. Follow us on Twitter, Facebook, and Instagram to join the conversation. We would love to hear from you.</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Updates section -->
+        <section id="updates" class="my-5">
+            <h2>Updates</h2>
+            <h3>Stay connected with us to get more exciting updates and promotions from us.</h3>
+            <div id="update-carousel" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="hover">
+                <ol class="carousel-indicators">
+                    <li data-target="#update-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#update-carousel" data-slide-to="1"></li>
+                    <li data-target="#update-carousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active update-content">
+                        <img src="Chevera Logo/logo.png" alt="HTML5 Logo" class="d-block w-100">
+                        <div class="carousel-caption text-dark">
+                            <h5>Update 1</h5>
+                            <h1>Stay in touch with us to get more exciting updates and promotions from us.</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item update-content">
+                        <img src="Chevera Logo/logo.png" alt="HTML5 Logo" class="d-block w-100">
+                        <div class="carousel-caption text-dark">
+                            <h5>Update 2</h5>
+                            <h1>Exciting experiences when you work with us.</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item update-content">
+                        <img src="Chevera Logo/logo.png" alt="Update 3" class="d-block w-100">
+                        <div class="carousel-caption text-dark">
+                            <h5>Update 3</h5>
+                            <h1>Daily updates on new services and offers</h1>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#update-carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#update-carousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Footer section -->
+        <footer class="footer">
+            <div class="footer-item footer-item-1">
+                <div class="contact-info">
+                    <h4>Contact</h4>
+                    <p>Telephone: +233(0244)</p>
+                    <p>WhatsApp: +233(0)244</p>
+                    <p>Email: saddestjoker419@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-item footer-item-2">
+                <div class="contact-info">
+                    <h4>Follow Us</h4>
+                    <p><a href="#">Facebook</a></p>
+                    <p><a href="#">Twitter</a></p>
+                    <p><a href="#">Instagram</a></p>
+                    <p><a href="#">LinkedIn</a></p>
+                </div>
+            </div>
+            <div class="footer-item footer-item-3">
+                <div class="contact-info">
+                    <h4>Subscribe</h4>
+                    <p>Subscribe to our newsletter for the latest updates and promotions.</p>
+                    <form>
+                        <input type="email" placeholder="Email Address" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </footer>
+         <div class="arrow-circle">
+        <i class="fas fa-arrow-up" style="color: white;"></i>
+    </div>
+
+    </main>
+
+    <!-- Link to Bootstrap 5 JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+     
+     <script>
+        document.querySelector('.arrow-circle').addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+
+
+
+</body>
+</html>

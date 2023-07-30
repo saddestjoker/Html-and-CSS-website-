@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Using a descriptive title for the website -->
-    <title>Chevera Company Limited - Home</title>
+    <title>The name - Home</title>
     
     <!-- Link to Bootstrap 5 CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
@@ -183,7 +183,7 @@
                 </div>
                 <div class="col-6">
                     <!-- Use an image tag to add your company logo here -->
-                    <img src="Chevera Logo/logo.png" alt="HTML5 Logo" class="img-fluid float-right">
+                    <img src="the Logo/logo.png" alt="HTML5 Logo" class="img-fluid float-right">
                 </div>
             </div>
         </div>
@@ -212,9 +212,9 @@
     <main class="container">
         <!-- About Us section -->
         <section id="About-us" class="my-5">
-            <h4>Discover Chevera Company Limited</h4>
+            <h4>Discover the name</h4>
             <h2>About Us</h2>
-            <img src="Chevera Logo/chika.jpg" alt="About-us"   class="d-block w-50">
+            <img src="the Logo/chika.jpg" alt="About-us"   class="d-block w-50">
             <div class="row">
                 <div class="col-md-6">
                     <div class="grid-container">
@@ -222,10 +222,10 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <h3>Chevera Company Limited has been planning unforgettable experiences since 2017. 
+                    <h3>the name has been planning unforgettable experiences since 2017. 
                         Our qualified and knowledgeable agents travel the world often, so they can advise, 
                         recommend, and create the perfect trip according to your request. 
-                        Chevera Company Limited also provides other services that you can check out in the services section.</h3>
+                        the name also provides other services that you can check out in the services section.</h3>
                 </div>
             </div>
         </section>
@@ -235,26 +235,26 @@
             <h2>Services</h2>
             <div class="grid">
                 <div class="service-card">
-                    <img src="Chevera Logo/chika.jpg" alt="Service 1">
-                    <h3>ARCHITECTURE</h3>
-                    <p>Build contractor</p>
-                    <p>Build Design</p>
-                    <p>Build Planning</p>
+                    <img src="the Logo/chika.jpg" alt="Service 1">
+                    <h3>service 1</h3>
+                    <p>the service</p>
+                    <p>the service</p>
+                    <p>the service</p>
                 </div>
                 <div class="service-card">
-                    <img src="Chevera Logo/logo.png" alt="Service 2">
-                    <h3>TRAVEL AND TOUR</h3>
-                    <p>American Visa Application</p>
-                    <p>American Lottery Application</p>
-                    <p>Passport Application and Renewal</p>
-                    <p>Birth Certificate Application</p>
+                    <img src="the Logo/logo.png" alt="Service 2">
+                    <h3>service 2</h3>
+                    <p>subservice</p>
+                    <p>sub service</p>
+                    <p>sub service</p>
+                    <p>sub service</p>
                 </div>
                 <div class="service-card">
-                    <img src="Chevera Logo/logo.png" alt="Service 3">
-                    <h3>PRINTING SERVICES</h3>
-                    <p>Typing and Printing of all Formats</p>
-                    <p>3D Designing</p>
-                    <p>Passport picture</p>
+                    <img src="the Logo/logo.png" alt="Service 3">
+                    <h3>service 3</h3>
+                    <p>the service</p>
+                    <p>the service</p>
+                    <p>the service</p>
                     
                 </div>
             </div>
@@ -290,21 +290,21 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active update-content">
-                        <img src="Chevera Logo/logo.png" alt="HTML5 Logo" class="d-block w-100">
+                        <img src="the Logo/logo.png" alt="HTML5 Logo" class="d-block w-100">
                         <div class="carousel-caption text-dark">
                             <h5>Update 1</h5>
                             <h1>Stay in touch with us to get more exciting updates and promotions from us.</h1>
                         </div>
                     </div>
                     <div class="carousel-item update-content">
-                        <img src="Chevera Logo/logo.png" alt="HTML5 Logo" class="d-block w-100">
+                        <img src="the Logo/logo.png" alt="HTML5 Logo" class="d-block w-100">
                         <div class="carousel-caption text-dark">
                             <h5>Update 2</h5>
                             <h1>Exciting experiences when you work with us.</h1>
                         </div>
                     </div>
                     <div class="carousel-item update-content">
-                        <img src="Chevera Logo/logo.png" alt="Update 3" class="d-block w-100">
+                        <img src="the Logo/logo.png" alt="Update 3" class="d-block w-100">
                         <div class="carousel-caption text-dark">
                             <h5>Update 3</h5>
                             <h1>Daily updates on new services and offers</h1>
